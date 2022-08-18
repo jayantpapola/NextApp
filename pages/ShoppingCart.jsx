@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux"
 import Link from 'next/link'
 import { FaTrashAlt} from 'react-icons/fa'
 import styles from '../styles/ShoppingCart.module.css'
-import { deleteFromCart } from "./Redux/Reducers/cartReducer"
+import { deleteFromCart } from "../Redux/Reducers/cartReducer"
 
 const ShoppingCart = () => {
 

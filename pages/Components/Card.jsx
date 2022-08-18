@@ -1,7 +1,7 @@
 import styles from '../../styles/Card.module.css'
 import { useDispatch } from 'react-redux';
 import { FaShoppingCart, FaLongArrowAltRight } from "react-icons/fa";
-import { addToCart } from '../Redux/Reducers/cartReducer';
+import { addToCart } from '../../Redux/Reducers/cartReducer';
 
 const Card = ({id, name, stock, price}) => {
 
