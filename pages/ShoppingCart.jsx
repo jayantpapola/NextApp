@@ -23,7 +23,7 @@ const ShoppingCart = () => {
       </div>
       {items &&
         items.map(e=>
-          <div className={styles.product}>
+          <div key={e.id} className={styles.product}>
             <strong>{e.name}</strong>
             <p>Rs. {e.price}</p>
             <button 
