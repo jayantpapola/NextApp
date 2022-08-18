@@ -1,0 +1,48 @@
+.ShoppingCart{
+    height: auto;
+    padding: 50px 0;
+    width: 100%;
+}
+.product{
+    position: relative;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+#trashBtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    transition: .3s;
+}
+#trashBtn:hover{
+    background-color: rgb(205, 39, 39);
+    color: #fff;
+}
+.back{
+    position: absolute;
+    padding: 10px 20px;
+    left: 10px;
+    top: 10px;
+    border: none;
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+}
+.subtotal{
+    position: absolute;
+    padding: 10px 20px;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background-color: #111;
+    color: #fff;
+}
+#subtotal{
+    margin-right: 10px;
+    font-size: 12px;
+}

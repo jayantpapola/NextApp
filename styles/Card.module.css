@@ -1,0 +1,65 @@
+.Card{
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    flex-grow: 1;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.9);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    min-width: 200px;
+    width: 40%;
+    color: #111;
+    text-align: center;
+}
+.name{
+    padding: 10px;
+    background-color: #111;
+    color: white;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#label{
+    font-size: 14px;
+}
+#addToCart{
+    position: absolute;
+    left: 90%;
+    bottom: 20px;
+    border: none;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+#addToCart:focus{
+    outline: solid 3px rgb(91, 224, 91);
+}
+#addToCart:focus #longArrow{
+    font-size: 12px;
+    margin-left: 5px;
+}
+#addToCart:hover #longArrow{
+    font-size: 12px;
+    margin-left: 5px;
+}
+#longArrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    font-size: 0;
+}
+@media only screen and (max-width: 600px){
+    #addToCart {
+            left: 80%
+    }
+}
