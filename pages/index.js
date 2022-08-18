@@ -73,7 +73,7 @@ export default function Home() {
       <div className={styles.card__container}>
         {userData && userData
         .filter(e=>
-          e.name.toLowerCase().includes(productName))
+          e.name.toLowerCase().includes(productName.toLowerCase()))
         .map(e=>
           <Card 
             key={e.product_id}
